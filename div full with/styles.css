@@ -1,0 +1,39 @@
+*{
+    padding: none
+;
+    margin: none;
+}
+
+.col1{
+    background-color: royalblue;
+    height: 300px;
+    width:auto;
+
+}
+
+.col2{
+ background-color: chocolate;
+    padding: 10px;
+    margin: 0px;
+   
+}
+
+.d1{
+    font-style: italic;
+    background-color: turquoise;
+    width:14px;
+  
+    padding: 20px;
+   
+}
+
+.d2{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.fix_padding{
+    padding: 0;
+
+}

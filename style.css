@@ -1,0 +1,158 @@
+/*Global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+/*Import fonts: */
+
+
+/* Anton */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* Montserrat*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Rules Montserrat
+font-family: 'Montserrat', sans-serif; */
+
+
+/*Seccion 1 */
+
+
+/*columna 1*/
+
+.seccion-1 {
+    background-color: #ffffff;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.copys-container {
+    align-items: center;
+    text-align: left;
+    margin-top: 250px;
+    margin-left: 100px;
+    margin-right: 3em;
+    padding-right: 2em;
+}
+
+.texto-inicio {
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: -2px;
+    line-height: 1;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    letter-spacing: -2px;
+    line-height: 1;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: -1px;
+    opacity: .6;
+}
+
+
+/*columna 2*/
+
+.seccion-form {
+    height: 800px;
+    background-image: url("img/vector.svg");
+    background-repeat: no-repeat;
+    background-size: 78%;
+    background-position: center;
+}
+
+
+/*Styles seccion 2 */
+
+
+/*columna 1*/
+
+.foto {
+    max-height: auto;
+    max-width: auto;
+    border-right: none;
+}
+
+
+/*columna 2*/
+
+.div-color1 {
+    height: 291px;
+    background-color: #614456;
+    text-align: center;
+    padding-top: 250px;
+    width: auto;
+}
+
+.div-color2 {
+    height: 359px;
+    background-color: #E9E9E9;
+    text-align: center;
+    width: auto;
+    text-align: left;
+}
+
+.btn-rojo {
+    background-color: #E20515;
+    width: 260px;
+    word-spacing: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+/*Styles seccion 3 */
+
+.sec3 {
+    background-color: #F5F5F5;
+}
+
+.col1s3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.h3s3 {
+    font-size: 2em;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1em;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.ps3 {
+    margin-top: -1em;
+    margin-bottom: 3em;
+    margin-left: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 15pt;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    opacity: .6;
+    letter-spacing: -1px;
+    line-height: 1.5
+}
