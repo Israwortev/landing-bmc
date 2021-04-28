@@ -15,6 +15,58 @@
 
 }
 
+/*Media query de imagen de sección 2 */
+
+
+@media only screen and (max-width: 880px) {
+   .col1{
+      background-size: 150%;
+     
+
+   }
+   
+    
+}
+
+@media screen and (max-width: 650px) {
+    .col1{
+        background-image: url("img/team-responsive.png");
+        background-size: 130%;
+       
+  
+     }
+}
+
+@media screen and (max-width: 320px) {
+    .col1{
+        background-image: url("img/team-responsive.png");
+        background-size: 160%;
+       
+  
+     }
+}
+
+@media screen and (max-width: 280px) {
+    .col1{
+        background-image: url("img/team-responsive.png");
+        background-size: 160%;
+       
+  
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .col2{
  background-color: chocolate;
     padding: 10px;
@@ -23,19 +75,40 @@
 }
 
 .d1{
-    font-style: italic;
-    background-color: turquoise;    
+   
+    color:#ffff;
+    background-color: #614456;    
     padding: 20px;
     height: 30%;
+    font-size: 18px;
    
 }
 
 .d2{
-    background-color: black;
-    color: white;
+    background-color:#E9E9E9;
+    color: #303030;
     padding: 20px;
     height: 70%;
 }
+
+.btn1{
+    background-color: #E20515;
+    color: #ffff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 24px ;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+
+}
+.btn1:hover{
+    text-decoration: none;
+    color: #ffff;
+}
+
+
 
 .fix_padding{
         padding: 0;
