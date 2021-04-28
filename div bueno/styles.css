@@ -1,0 +1,46 @@
+*{
+    padding: none
+;
+    margin: none;
+}
+
+.col1{
+    background-image: url("img/team.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-color:black;
+    width:auto;
+    height:420px;
+
+}
+
+.col2{
+ background-color: chocolate;
+    padding: 10px;
+    margin: 0px;
+   
+}
+
+.d1{
+    font-style: italic;
+    background-color: turquoise;    
+    padding: 20px;
+    height: 30%;
+   
+}
+
+.d2{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    height: 70%;
+}
+
+.fix_padding{
+        padding: 0;
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+
+}
