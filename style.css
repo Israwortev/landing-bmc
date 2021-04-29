@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+   
 }
 
 
@@ -85,41 +86,108 @@ h2 {
 
 /*Styles seccion 2 */
 
+.col1{
+    background-image: url("img/teamwork.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width:auto;
+    height:420px;
 
-/*columna 1*/
+}
 
-.foto {
-    max-height: auto;
-    max-width: auto;
-    border-right: none;
+/*Media query de imagen de sección 2 */
+
+
+@media only screen and (max-width: 880px) {
+   .col1{
+      background-size: 150%;
+     
+
+   }
+   
+    
+}
+
+@media screen and (max-width: 650px) {
+    .col1{
+        background-image: url("img/teamwork_responsive.png");
+        background-size: 130%;
+       
+  
+     }
+}
+
+@media screen and (max-width: 320px) {
+    .col1{
+        background-image: url("img/teamwork_responsive.png");
+        background-size: 160%;
+       
+  
+     }
+}
+
+@media screen and (max-width: 280px) {
+    .col1{
+        background-image: url("img/team-responsive.png");
+        background-size: 160%;
+       
+  
+     }
 }
 
 
-/*columna 2*/
 
-.div-color1 {
-    height: 291px;
-    background-color: #614456;
-    text-align: center;
-    padding-top: 250px;
-    width: auto;
+
+.col2{
+ 
+    padding: 10px;
+    margin: 0px;
+   
 }
 
-.div-color2 {
-    height: 359px;
-    background-color: #E9E9E9;
-    text-align: center;
-    width: auto;
-    text-align: left;
+.d1{
+   
+    color:#ffff;
+    background-color: #614456;    
+    padding: 20px;
+    height: 30%;
+    font-size: 18px;
+   
 }
 
-.btn-rojo {
+.d2{
+    background-color:#E9E9E9;
+    color: #303030;
+    padding: 20px;
+    height: 70%;
+}
+
+.btn1{
     background-color: #E20515;
-    width: 260px;
-    word-spacing: 20px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    color: #ffff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 24px ;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+
 }
+.btn1:hover{
+    text-decoration: none;
+    color: #ffff;
+}
+
+
+
+.fix_padding{
+        padding: 0;
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+
 
 
 /*Styles seccion 3 */

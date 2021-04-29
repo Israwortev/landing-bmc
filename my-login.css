@@ -5,8 +5,8 @@
 
 html,
 body {
-    height: 100%;
-    background-color: rgb(42, 42, 42);
+   /* height: 100%; */
+    /*background-color: rgb(42, 42, 42);*/
 }
 
 .social-icon {
@@ -21,6 +21,7 @@ body {
     text-decoration: none;
     font-size: 15pt;
     transition: 0.3s;
+    
 }
 
 .fb {
@@ -50,6 +51,7 @@ body {
 .link {
     text-decoration: none;
     color: #2c2c2c;
+    text-align: left;
 }
 
 .link:hover {
@@ -58,7 +60,7 @@ body {
 }
 
 
-}
+
 body.my-login-page {
     background-color: #f7f9fb;
     font-size: 14px;
@@ -74,6 +76,7 @@ h4 {
     font-family: 'Montserrat', sans-serif;
     opacity: .7;
     color: 999999;
+    text-align: left;
 }
 .my-login-page .brand {
     width: 90px;
